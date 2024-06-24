@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElevadoCubo">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/elevadoCubo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de Sucesor y su Cubo"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="35dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tfNum1"
+        android:hint="Ingrese el Numero"
+        android:layout_marginHorizontal="30dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+</com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnelevadoCubo"
+        android:text="Calculo del Sucesor y Su cubo"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResultado"
+        android:text="0"
+        android:layout_marginHorizontal="50dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
+    
+
+</FrameLayout>
